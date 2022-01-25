@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>获取移动端屏幕像素</title>
+    <script type="text/javascript">
+        function get(){
+            var mywidth = window.screen.width;
+            var myheight = window.screen.height;
+            document.getElementById("kuan").innerHTML=mywidth;
+            document.getElementById("gao").innerHTML=myheight;
+        };
+
+    </script>
+</head>
+<body onload="get()">
+    屏幕宽度：<h1 id="kuan"></h1>
+    屏幕高度：<h1 id="gao"></h1>
+
+</body>
+</html>
